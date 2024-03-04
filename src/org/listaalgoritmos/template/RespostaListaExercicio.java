@@ -164,8 +164,8 @@ public class RespostaListaExercicio {
 	 */
 	public static void imprimirMaiorMenorElemento(int[] array) 
 	{
-		int menor = array[0];
-		int maior = array[0];
+		int menor = Integer.MIN_VALUE;
+		int maior = Integer.MAX_VALUE;
 		
 		for(int i = 0; i < array.length; i++) {
 			if(array[i] < menor) {
